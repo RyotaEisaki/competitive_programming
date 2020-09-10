@@ -15,6 +15,9 @@
 		E35417402509F76100037871 /* work.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E354173E2509F76100037871 /* work.cpp */; };
 		E35417432509FBA300037871 /* dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E35417412509FBA300037871 /* dictionary.cpp */; };
 		E35417462509FE7400037871 /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E35417442509FE7400037871 /* point.cpp */; };
+		E3541749250A0DBA00037871 /* fencerepair.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3541747250A0DBA00037871 /* fencerepair.cpp */; };
+		E354174C250A11AA00037871 /* knapsack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E354174A250A11AA00037871 /* knapsack.cpp */; };
+		E354174F250A144E00037871 /* knapsack_improve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E354174D250A144E00037871 /* knapsack_improve.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +49,12 @@
 		E35417422509FBA300037871 /* dictionary.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dictionary.hpp; sourceTree = "<group>"; };
 		E35417442509FE7400037871 /* point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = point.cpp; sourceTree = "<group>"; };
 		E35417452509FE7400037871 /* point.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = point.hpp; sourceTree = "<group>"; };
+		E3541747250A0DBA00037871 /* fencerepair.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fencerepair.cpp; sourceTree = "<group>"; };
+		E3541748250A0DBA00037871 /* fencerepair.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fencerepair.hpp; sourceTree = "<group>"; };
+		E354174A250A11AA00037871 /* knapsack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = knapsack.cpp; sourceTree = "<group>"; };
+		E354174B250A11AA00037871 /* knapsack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = knapsack.hpp; sourceTree = "<group>"; };
+		E354174D250A144E00037871 /* knapsack_improve.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = knapsack_improve.cpp; sourceTree = "<group>"; };
+		E354174E250A144E00037871 /* knapsack_improve.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = knapsack_improve.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +98,12 @@
 				E35417422509FBA300037871 /* dictionary.hpp */,
 				E35417442509FE7400037871 /* point.cpp */,
 				E35417452509FE7400037871 /* point.hpp */,
+				E3541747250A0DBA00037871 /* fencerepair.cpp */,
+				E3541748250A0DBA00037871 /* fencerepair.hpp */,
+				E354174A250A11AA00037871 /* knapsack.cpp */,
+				E354174B250A11AA00037871 /* knapsack.hpp */,
+				E354174D250A144E00037871 /* knapsack_improve.cpp */,
+				E354174E250A144E00037871 /* knapsack_improve.hpp */,
 				E354173F2509F76100037871 /* work.hpp */,
 				E354173C2509DF2D00037871 /* greedy.hpp */,
 				E35417332509D07800037871 /* deep_first_search.hpp */,
@@ -159,9 +174,12 @@
 				E35417432509FBA300037871 /* dictionary.cpp in Sources */,
 				E35417402509F76100037871 /* work.cpp in Sources */,
 				E35417462509FE7400037871 /* point.cpp in Sources */,
+				E354174C250A11AA00037871 /* knapsack.cpp in Sources */,
 				E354173D2509DF2D00037871 /* greedy.cpp in Sources */,
 				E35417292509C3BF00037871 /* main.cpp in Sources */,
 				E35417342509D07800037871 /* deep_first_search.cpp in Sources */,
+				E354174F250A144E00037871 /* knapsack_improve.cpp in Sources */,
+				E3541749250A0DBA00037871 /* fencerepair.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
