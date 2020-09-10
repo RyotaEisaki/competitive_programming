@@ -18,6 +18,7 @@
 		E3541749250A0DBA00037871 /* fencerepair.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3541747250A0DBA00037871 /* fencerepair.cpp */; };
 		E354174C250A11AA00037871 /* knapsack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E354174A250A11AA00037871 /* knapsack.cpp */; };
 		E354174F250A144E00037871 /* knapsack_improve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E354174D250A144E00037871 /* knapsack_improve.cpp */; };
+		E3541752250A172200037871 /* samechar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3541750250A172200037871 /* samechar.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,8 @@
 		E354174B250A11AA00037871 /* knapsack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = knapsack.hpp; sourceTree = "<group>"; };
 		E354174D250A144E00037871 /* knapsack_improve.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = knapsack_improve.cpp; sourceTree = "<group>"; };
 		E354174E250A144E00037871 /* knapsack_improve.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = knapsack_improve.hpp; sourceTree = "<group>"; };
+		E3541750250A172200037871 /* samechar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = samechar.cpp; sourceTree = "<group>"; };
+		E3541751250A172200037871 /* samechar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = samechar.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				E354174B250A11AA00037871 /* knapsack.hpp */,
 				E354174D250A144E00037871 /* knapsack_improve.cpp */,
 				E354174E250A144E00037871 /* knapsack_improve.hpp */,
+				E3541750250A172200037871 /* samechar.cpp */,
+				E3541751250A172200037871 /* samechar.hpp */,
 				E354173F2509F76100037871 /* work.hpp */,
 				E354173C2509DF2D00037871 /* greedy.hpp */,
 				E35417332509D07800037871 /* deep_first_search.hpp */,
@@ -170,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E35417312509C4FB00037871 /* recursion.cpp in Sources */,
+				E3541752250A172200037871 /* samechar.cpp in Sources */,
 				E35417372509D74B00037871 /* lake_counting.cpp in Sources */,
 				E35417432509FBA300037871 /* dictionary.cpp in Sources */,
 				E35417402509F76100037871 /* work.cpp in Sources */,
