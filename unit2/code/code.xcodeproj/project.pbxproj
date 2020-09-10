@@ -10,6 +10,11 @@
 		E35417292509C3BF00037871 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E35417282509C3BF00037871 /* main.cpp */; };
 		E35417312509C4FB00037871 /* recursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E354172F2509C4FB00037871 /* recursion.cpp */; };
 		E35417342509D07800037871 /* deep_first_search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E35417322509D07800037871 /* deep_first_search.cpp */; };
+		E35417372509D74B00037871 /* lake_counting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E35417352509D74B00037871 /* lake_counting.cpp */; };
+		E354173D2509DF2D00037871 /* greedy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E354173B2509DF2D00037871 /* greedy.cpp */; };
+		E35417402509F76100037871 /* work.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E354173E2509F76100037871 /* work.cpp */; };
+		E35417432509FBA300037871 /* dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E35417412509FBA300037871 /* dictionary.cpp */; };
+		E35417462509FE7400037871 /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E35417442509FE7400037871 /* point.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +36,16 @@
 		E35417302509C4FB00037871 /* recursion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = recursion.hpp; sourceTree = "<group>"; };
 		E35417322509D07800037871 /* deep_first_search.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = deep_first_search.cpp; sourceTree = "<group>"; };
 		E35417332509D07800037871 /* deep_first_search.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = deep_first_search.hpp; sourceTree = "<group>"; };
+		E35417352509D74B00037871 /* lake_counting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lake_counting.cpp; sourceTree = "<group>"; };
+		E35417362509D74B00037871 /* lake_counting.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lake_counting.hpp; sourceTree = "<group>"; };
+		E354173B2509DF2D00037871 /* greedy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = greedy.cpp; sourceTree = "<group>"; };
+		E354173C2509DF2D00037871 /* greedy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = greedy.hpp; sourceTree = "<group>"; };
+		E354173E2509F76100037871 /* work.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = work.cpp; sourceTree = "<group>"; };
+		E354173F2509F76100037871 /* work.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = work.hpp; sourceTree = "<group>"; };
+		E35417412509FBA300037871 /* dictionary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dictionary.cpp; sourceTree = "<group>"; };
+		E35417422509FBA300037871 /* dictionary.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dictionary.hpp; sourceTree = "<group>"; };
+		E35417442509FE7400037871 /* point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = point.cpp; sourceTree = "<group>"; };
+		E35417452509FE7400037871 /* point.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = point.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +81,16 @@
 				E35417282509C3BF00037871 /* main.cpp */,
 				E354172F2509C4FB00037871 /* recursion.cpp */,
 				E35417322509D07800037871 /* deep_first_search.cpp */,
+				E35417352509D74B00037871 /* lake_counting.cpp */,
+				E35417362509D74B00037871 /* lake_counting.hpp */,
+				E354173B2509DF2D00037871 /* greedy.cpp */,
+				E354173E2509F76100037871 /* work.cpp */,
+				E35417412509FBA300037871 /* dictionary.cpp */,
+				E35417422509FBA300037871 /* dictionary.hpp */,
+				E35417442509FE7400037871 /* point.cpp */,
+				E35417452509FE7400037871 /* point.hpp */,
+				E354173F2509F76100037871 /* work.hpp */,
+				E354173C2509DF2D00037871 /* greedy.hpp */,
 				E35417332509D07800037871 /* deep_first_search.hpp */,
 				E35417302509C4FB00037871 /* recursion.hpp */,
 			);
@@ -130,6 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E35417312509C4FB00037871 /* recursion.cpp in Sources */,
+				E35417372509D74B00037871 /* lake_counting.cpp in Sources */,
+				E35417432509FBA300037871 /* dictionary.cpp in Sources */,
+				E35417402509F76100037871 /* work.cpp in Sources */,
+				E35417462509FE7400037871 /* point.cpp in Sources */,
+				E354173D2509DF2D00037871 /* greedy.cpp in Sources */,
 				E35417292509C3BF00037871 /* main.cpp in Sources */,
 				E35417342509D07800037871 /* deep_first_search.cpp in Sources */,
 			);
