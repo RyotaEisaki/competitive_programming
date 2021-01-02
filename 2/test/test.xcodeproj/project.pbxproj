@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E3595130259F0B4A00B36911 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E359512F259F0B4A00B36911 /* main.cpp */; };
 		E359513B259F170A00B36911 /* partial_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3595139259F170A00B36911 /* partial_sum.cpp */; };
+		E3DB743D25A03FD80002FF23 /* lake_counting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3DB743B25A03FD80002FF23 /* lake_counting.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,8 @@
 		E3595137259F0D1D00B36911 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		E3595139259F170A00B36911 /* partial_sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = partial_sum.cpp; sourceTree = "<group>"; };
 		E359513A259F170A00B36911 /* partial_sum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = partial_sum.hpp; sourceTree = "<group>"; };
+		E3DB743B25A03FD80002FF23 /* lake_counting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lake_counting.cpp; sourceTree = "<group>"; };
+		E3DB743C25A03FD80002FF23 /* lake_counting.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lake_counting.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				E3595139259F170A00B36911 /* partial_sum.cpp */,
 				E359513A259F170A00B36911 /* partial_sum.hpp */,
 				E3595137259F0D1D00B36911 /* input.txt */,
+				E3DB743B25A03FD80002FF23 /* lake_counting.cpp */,
+				E3DB743C25A03FD80002FF23 /* lake_counting.hpp */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3DB743D25A03FD80002FF23 /* lake_counting.cpp in Sources */,
 				E3595130259F0B4A00B36911 /* main.cpp in Sources */,
 				E359513B259F170A00B36911 /* partial_sum.cpp in Sources */,
 			);
