@@ -1,5 +1,7 @@
-### Competetive programming with C++
+### Competetive programming
 競技プログラミングの練習
+
+Language: C++
 
 ### Atcoderテンプレート
 ```
