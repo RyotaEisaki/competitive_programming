@@ -1,5 +1,5 @@
 ### Competetive programming
-競技プログラミングの練習
+競技プログラミング
 
 Language: C++
 
