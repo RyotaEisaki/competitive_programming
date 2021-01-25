@@ -1,9 +1,10 @@
 ### Competetive programming
 競技プログラミング
 
-Language: C++
+Language: C++, Python
 
 ### Atcoderテンプレート
+C++
 ```
 #include <bits/stdc++.h>
 using namespace std;
